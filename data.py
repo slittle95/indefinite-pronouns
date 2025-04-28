@@ -112,29 +112,30 @@ class data:
 		data_raw = list(csv.reader(open(data_path), delimiter='\t'))[1:]
 		self.data = []
 		for di,d in enumerate(data_raw):
-			if d[3] == 'excluded': continue
-			secondary = re.split(';',d[4])
-			annotation = d[2]
-			utt,wrd = int(d[0]),int(d[1])
-			onto = d[6]
-			if 'PR' in self.parameters and 'pred' in secondary: annotation = 'PRED'
-			elif 'IQ' in self.parameters and 'iq' in secondary: annotation = 'QU'
-			if not 'Q2' in self.parameters and 'q2' in secondary: continue
-			if 'noUF' in self.parameters and annotation == 'UF': continue
+			if d[4] == 'ERROR': continue
+			#secondary = re.split(';',d[4])
+			annotation = d[4]
+			utt,inx = int(d[0]),int(d[2])
+			#onto = d[6]
+			#if 'PR' in self.parameters and 'pred' in secondary: annotation = 'PRED'
+			#elif 'IQ' in self.parameters and 'iq' in secondary: annotation = 'QU'
+			#if not 'Q2' in self.parameters and 'q2' in secondary: continue
+			#if 'noUF' in self.parameters and annotation == 'UF': continue
 			self.token_index.append((utt,wrd))
-			self.ontological.append(onto)
+			#self.ontological.append(onto)
 			self.annotation.append(annotation)
 			self.utterance.append(d[5])
 			self.data.append([])
 			for li in range(30):
 				try : stem = stem_dict[(li,d[li+7])]
 				except KeyError: stem = d[li+7]
-				if 'SPLIT' in self.parameters:
-					self.data[-1].append([t for t in re.split(' ', stem) if t != ''])
-				else: self.data[-1].append([stem])
+				#if 'SPLIT' in self.parameters:
+					#self.data[-1].append([t for t in re.split(' ', stem) if t != ''])
+				#else: self.data[-1].append([stem])
+				self.data[-1].append([stem])
 		
 		# convert attrubutes to np arrays
-		self.ontological = np.array(self.ontological)
+		#self.ontological = np.array(self.ontological)
 		self.annotation = np.array(self.annotation)
 		self.data = np.array(self.data)
 		self.token_index = np.array(self.token_index)
