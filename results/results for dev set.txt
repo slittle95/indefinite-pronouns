@@ -1,0 +1,85 @@
+                           data.sub$translated.to
+data.sub$spanish.prep.found           ?       about       after       again
+                       para 0.003623188 0.000000000 0.000000000 0.000000000
+                       por  0.000000000 0.019969278 0.004608295 0.001536098
+                           data.sub$translated.to
+data.sub$spanish.prep.found        alas    all over along the way      around
+                       para 0.000000000 0.000000000   0.000000000 0.000000000
+                       por  0.001536098 0.001536098   0.001536098 0.009216590
+                           data.sub$translated.to
+data.sub$spanish.prep.found          as      astray          at     at last
+                       para 0.001811594 0.000000000 0.001811594 0.000000000
+                       por  0.004608295 0.001536098 0.009216590 0.003072197
+                           data.sub$translated.to
+data.sub$spanish.prep.found    at least  be so good     because     between
+                       para 0.000000000 0.000000000 0.001811594 0.001811594
+                       por  0.003072197 0.001536098 0.018433180 0.000000000
+                           data.sub$translated.to
+data.sub$spanish.prep.found          by    by which  completely  concerning
+                       para 0.007246377 0.000000000 0.000000000 0.000000000
+                       por  0.175115207 0.001536098 0.006144393 0.001536098
+                           data.sub$translated.to
+data.sub$spanish.prep.found    DISTRANS        down      due to         ERR
+                       para 0.081521739 0.000000000 0.000000000 0.036231884
+                       por  0.067588326 0.001536098 0.004608295 0.039938556
+                           data.sub$translated.to
+data.sub$spanish.prep.found  everywhere far and wide     finally         for
+                       para 0.000000000  0.000000000 0.000000000 0.338768116
+                       por  0.003072197  0.001536098 0.007680492 0.248847926
+                           data.sub$translated.to
+data.sub$spanish.prep.found     forever        from        here      hereby
+                       para 0.009057971 0.001811594 0.001811594 0.000000000
+                       por  0.000000000 0.007680492 0.012288786 0.003072197
+                           data.sub$translated.to
+data.sub$spanish.prep.found          in    in order in order that
+                       para 0.001811594 0.001811594   0.001811594
+                       por  0.027649770 0.000000000   0.000000000
+                           data.sub$translated.to
+data.sub$spanish.prep.found in that direction     in vain        into
+                       para       0.001811594 0.000000000 0.000000000
+                       por        0.000000000 0.001536098 0.001536098
+                           data.sub$translated.to
+data.sub$spanish.prep.found        last   no longer        NONE          of
+                       para 0.000000000 0.000000000 0.012681159 0.010869565
+                       por  0.001536098 0.001536098 0.046082949 0.007680492
+                           data.sub$translated.to
+data.sub$spanish.prep.found   of course          on   once more         one
+                       para 0.000000000 0.003623188 0.000000000 0.000000000
+                       por  0.003072197 0.019969278 0.001536098 0.001536098
+                           data.sub$translated.to
+data.sub$spanish.prep.found    out (of)      out of   out there        over
+                       para 0.000000000 0.000000000 0.000000000 0.000000000
+                       por  0.001536098 0.004608295 0.001536098 0.004608295
+                           data.sub$translated.to
+data.sub$spanish.prep.found  over there   overnight        past         per
+                       para 0.000000000 0.000000000 0.000000000 0.001811594
+                       por  0.003072197 0.001536098 0.001536098 0.006144393
+                           data.sub$translated.to
+data.sub$spanish.prep.found   permanent      please       since          so
+                       para 0.001811594 0.000000000 0.000000000 0.016304348
+                       por  0.000000000 0.066052227 0.001536098 0.006144393
+                           data.sub$translated.to
+data.sub$spanish.prep.found     so that        that the whole of   therefore
+                       para 0.001811594 0.009057971  0.000000000 0.000000000
+                       por  0.000000000 0.000000000  0.001536098 0.003072197
+                           data.sub$translated.to
+data.sub$spanish.prep.found     through        thus        till          to
+                       para 0.001811594 0.000000000 0.001811594 0.436594203
+                       por  0.018433180 0.003072197 0.000000000 0.044546851
+                           data.sub$translated.to
+data.sub$spanish.prep.found     tonight       under         via
+                       para 0.000000000 0.000000000 0.001811594
+                       por  0.001536098 0.001536098 0.000000000
+                           data.sub$translated.to
+data.sub$spanish.prep.found what\u0092s the point       which         why
+                       para           0.001811594 0.000000000 0.000000000
+                       por            0.000000000 0.001536098 0.032258065
+                           data.sub$translated.to
+data.sub$spanish.prep.found        with
+                       para 0.003623188
+                       por  0.016897081
+
+> show(H.para)
+[1] 1.504922
+> show(H.por)
+[1] 3.219147

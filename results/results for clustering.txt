@@ -1,0 +1,272 @@
+Highest adjusted Rand score was k=5 with all the options on:
+
+['no_ambig', 'direct_trans', 'exclude_syntax', 'exclude_stock_phrases', 'algo:kmeans', 'k:5']
+{np.int32(0), np.int32(1), np.int32(2), np.int32(3), np.int32(4)}
+0.4117418372071998
+PU	5        484      3        136      0       
+RE	6        28       0        173      0       
+IT	42       0        76       0        3       
+CA	156      1        145      1        56      
+ME	0        0        28       0        14      
+AT	0        0        10       0        154     
+PE	0        29       0        34       0       
+TD	0        25       0        10       0       
+FE	27       0        4        0        0       
+IN	42       0        12       6        2       
+DE	0        13       0        3        0       
+IS	1        0        119      0        5       
+ID	1        0        12       0        0       
+TO	12       0        50       0        0       
+DI	0        0        10       0        1       
+AD	4        0        4        0        0 
+
+
+Whole output:
+['no_ambig', 'direct_trans', 'exclude_syntax', 'exclude_stock_phrases', 'algo:hierarchical', 'method:complete']
+{np.int32(0), np.int32(1)}
+0.321043395274634
+PU	8        620     
+RE	6        201     
+IT	121      0       
+CA	357      2       
+ME	42       0       
+AT	164      0       
+PE	0        63      
+TD	0        35      
+FE	31       0       
+IN	56       6       
+DE	0        16      
+IS	125      0       
+ID	13       0       
+TO	62       0       
+DI	11       0       
+AD	8        0       
+['no_ambig', 'direct_trans', 'exclude_syntax', 'exclude_stock_phrases', 'algo:hierarchical', 'method:average']
+{np.int32(0), np.int32(1)}
+0.321043395274634
+PU	8        620     
+RE	6        201     
+IT	121      0       
+CA	357      2       
+ME	42       0       
+AT	164      0       
+PE	0        63      
+TD	0        35      
+FE	31       0       
+IN	56       6       
+DE	0        16      
+IS	125      0       
+ID	13       0       
+TO	62       0       
+DI	11       0       
+AD	8        0       
+['no_ambig', 'direct_trans', 'exclude_syntax', 'exclude_stock_phrases', 'algo:hierarchical', 'method:single']
+{np.int32(0), np.int32(1)}
+0.321043395274634
+PU	620      8       
+RE	201      6       
+IT	0        121     
+CA	2        357     
+ME	0        42      
+AT	0        164     
+PE	63       0       
+TD	35       0       
+FE	0        31      
+IN	6        56      
+DE	16       0       
+IS	0        125     
+ID	0        13      
+TO	0        62      
+DI	0        11      
+AD	0        8       
+['no_ambig', 'direct_trans', 'exclude_syntax', 'exclude_stock_phrases', 'algo:ward']
+{np.int32(0), np.int32(1)}
+0.321043395274634
+PU	8        620     
+RE	6        201     
+IT	121      0       
+CA	357      2       
+ME	42       0       
+AT	164      0       
+PE	0        63      
+TD	0        35      
+FE	31       0       
+IN	56       6       
+DE	0        16      
+IS	125      0       
+ID	13       0       
+TO	62       0       
+DI	11       0       
+AD	8        0       
+['no_ambig', 'direct_trans', 'exclude_syntax', 'exclude_stock_phrases', 'algo:kmeans', 'k:2']
+{np.int32(0), np.int32(1)}
+0.321043395274634
+PU	8        620     
+RE	6        201     
+IT	121      0       
+CA	357      2       
+ME	42       0       
+AT	164      0       
+PE	0        63      
+TD	0        35      
+FE	31       0       
+IN	56       6       
+DE	0        16      
+IS	125      0       
+ID	13       0       
+TO	62       0       
+DI	11       0       
+AD	8        0       
+['no_ambig', 'direct_trans', 'exclude_syntax', 'exclude_stock_phrases', 'algo:kmeans', 'k:3']
+{np.int32(0), np.int32(1), np.int32(2)}
+0.2861491680710528
+PU	484      8        136     
+RE	28       6        173     
+IT	0        121      0       
+CA	1        357      1       
+ME	0        42       0       
+AT	0        164      0       
+PE	29       0        34      
+TD	25       0        10      
+FE	0        31       0       
+IN	0        56       6       
+DE	13       0        3       
+IS	0        125      0       
+ID	0        13       0       
+TO	0        62       0       
+DI	0        11       0       
+AD	0        8        0       
+['no_ambig', 'direct_trans', 'exclude_syntax', 'exclude_stock_phrases', 'algo:kmeans', 'k:4']
+{np.int32(0), np.int32(1), np.int32(2), np.int32(3)}
+0.244235950714494
+PU	8        73       136      411     
+RE	6        8        173      20      
+IT	121      0        0        0       
+CA	357      1        1        0       
+ME	42       0        0        0       
+AT	164      0        0        0       
+PE	0        5        34       24      
+TD	0        24       10       1       
+FE	31       0        0        0       
+IN	56       0        6        0       
+DE	0        5        3        8       
+IS	125      0        0        0       
+ID	13       0        0        0       
+TO	62       0        0        0       
+DI	11       0        0        0       
+AD	8        0        0        0       
+['no_ambig', 'direct_trans', 'exclude_syntax', 'exclude_stock_phrases', 'algo:kmeans', 'k:5']
+{np.int32(0), np.int32(1), np.int32(2), np.int32(3), np.int32(4)}
+0.4117418372071998
+PU	5        484      3        136      0       
+RE	6        28       0        173      0       
+IT	42       0        76       0        3       
+CA	156      1        145      1        56      
+ME	0        0        28       0        14      
+AT	0        0        10       0        154     
+PE	0        29       0        34       0       
+TD	0        25       0        10       0       
+FE	27       0        4        0        0       
+IN	42       0        12       6        2       
+DE	0        13       0        3        0       
+IS	1        0        119      0        5       
+ID	1        0        12       0        0       
+TO	12       0        50       0        0       
+DI	0        0        10       0        1       
+AD	4        0        4        0        0       
+['no_ambig', 'direct_trans', 'exclude_syntax', 'exclude_stock_phrases', 'algo:kmeans', 'k:6']
+{np.int32(0), np.int32(1), np.int32(2), np.int32(3), np.int32(4), np.int32(5)}
+0.3619017951820921
+PU	136      0        411      5        3        73      
+RE	173      0        20       6        0        8       
+IT	0        3        0        42       76       0       
+CA	1        56       0        156      145      1       
+ME	0        14       0        0        28       0       
+AT	0        154      0        0        10       0       
+PE	34       0        24       0        0        5       
+TD	10       0        1        0        0        24      
+FE	0        0        0        27       4        0       
+IN	6        2        0        42       12       0       
+DE	3        0        8        0        0        5       
+IS	0        5        0        1        119      0       
+ID	0        0        0        1        12       0       
+TO	0        0        0        12       50       0       
+DI	0        1        0        0        10       0       
+AD	0        0        0        4        4        0       
+['no_ambig', 'direct_trans', 'exclude_syntax', 'exclude_stock_phrases', 'algo:kmeans', 'k:7']
+{np.int32(0), np.int32(1), np.int32(2), np.int32(3), np.int32(4), np.int32(5), np.int32(6)}
+0.37090094535522283
+PU	411      0        136      0        5        73       3       
+RE	20       0        173      0        6        8        0       
+IT	0        74       0        3        42       0        2       
+CA	0        131      1        56       156      1        14      
+ME	0        27       0        14       0        0        1       
+AT	0        10       0        154      0        0        0       
+PE	24       0        34       0        0        5        0       
+TD	1        0        10       0        0        24       0       
+FE	0        4        0        0        27       0        0       
+IN	0        8        6        2        42       0        4       
+DE	8        0        3        0        0        5        0       
+IS	0        114      0        5        1        0        5       
+ID	0        8        0        0        1        0        4       
+TO	0        42       0        0        12       0        8       
+DI	0        10       0        1        0        0        0       
+AD	0        1        0        0        4        0        3       
+['no_ambig', 'direct_trans', 'exclude_syntax', 'exclude_stock_phrases', 'algo:kmeans', 'k:8']
+{np.int32(0), np.int32(1), np.int32(2), np.int32(3), np.int32(4), np.int32(5), np.int32(6), np.int32(7)}
+0.38278876884282137
+PU	0        411      136      5        0        73       3        0       
+RE	0        20       173      6        0        8        0        0       
+IT	43       0        0        42       3        0        2        31      
+CA	118      0        1        156      56       1        14       13      
+ME	23       0        0        0        14       0        1        4       
+AT	7        0        0        0        154      0        0        3       
+PE	0        24       34       0        0        5        0        0       
+TD	0        1        10       0        0        24       0        0       
+FE	3        0        0        27       0        0        0        1       
+IN	5        0        6        42       2        0        4        3       
+DE	0        8        3        0        0        5        0        0       
+IS	101      0        0        1        5        0        5        13      
+ID	6        0        0        1        0        0        4        2       
+TO	42       0        0        12       0        0        8        0       
+DI	8        0        0        0        1        0        0        2       
+AD	1        0        0        4        0        0        3        0       
+['no_ambig', 'direct_trans', 'exclude_syntax', 'exclude_stock_phrases', 'algo:kmeans', 'k:9']
+{np.int32(0), np.int32(1), np.int32(2), np.int32(3), np.int32(4), np.int32(5), np.int32(6), np.int32(7), np.int32(8)}
+0.3829447537907893
+PU	411      5        136      0        0        71       3        0        2       
+RE	20       6        173      0        0        5        0        0        3       
+IT	0        42       0        43       3        0        2        31       0       
+CA	0        156      1        118      56       1        14       13       0       
+ME	0        0        0        23       14       0        1        4        0       
+AT	0        0        0        7        154      0        0        3        0       
+PE	24       0        34       0        0        4        0        0        1       
+TD	1        0        10       0        0        23       0        0        1       
+FE	0        27       0        3        0        0        0        1        0       
+IN	0        42       6        5        2        0        4        3        0       
+DE	8        0        3        0        0        5        0        0        0       
+IS	0        1        0        101      5        0        5        13       0       
+ID	0        1        0        6        0        0        4        2        0       
+TO	0        12       0        42       0        0        8        0        0       
+DI	0        0        0        8        1        0        0        2        0       
+AD	0        4        0        1        0        0        3        0        0       
+['no_ambig', 'direct_trans', 'exclude_syntax', 'exclude_stock_phrases', 'algo:kmeans', 'k:10']
+{np.int32(0), np.int32(1), np.int32(2), np.int32(3), np.int32(4), np.int32(5), np.int32(6), np.int32(7), np.int32(8), np.int32(9)}
+0.3844722842013799
+PU	25       0        5        136      411      0        3        0        0        48      
+RE	0        0        6        173      20       0        0        0        0        8       
+IT	0        3        42       0        0        43       2        0        31       0       
+CA	0        56       156      1        0        71       14       47       13       1       
+ME	0        14       0        0        0        23       1        0        4        0       
+AT	0        154      0        0        0        7        0        0        3        0       
+PE	0        0        0        34       24       0        0        0        0        5       
+TD	0        0        0        10       1        0        0        0        0        24      
+FE	0        0        27       0        0        3        0        0        1        0       
+IN	0        2        42       6        0        5        4        0        3        0       
+DE	0        0        0        3        8        0        0        0        0        5       
+IS	0        5        1        0        0        101      5        0        13       0       
+ID	0        0        1        0        0        6        4        0        2        0       
+TO	0        0        12       0        0        42       8        0        0        0       
+DI	0        1        0        0        0        8        0        0        2        0       
+AD	0        0        4        0        0        1        3        0        0        0       
+
