@@ -9,11 +9,10 @@ Breakdown of scripts and how to use them by section of Beekhuizen et al. 2015 pa
 * Are all semantic functions equally important?
 	- function_frequency.r
 		- run in an R environment to get the data for Table 2. Run for dev_set and test_set.
- 		- produces frequency tables for:
-   			- Spanish para vs por for each english translation--what amount of each English phrase translated to por and what amount to para?
-      			- What amount of the 'por' uses were coded with each semantic function?
-         		- What amount of the 'para' uses were coded with each semantic function?
-         	- also produces Shannon-entropy
+		- frequency table: Spanish para vs por for each english translation.
+	   	- frequency table: What amount of the 'por' uses were coded with each semantic function?
+   		- frequency table: What amount of the 'para' uses were coded with each semantic function?
+		- Shannon-entropy figures
 
 * Are the functions at the right level of granularity?
 	- analyze_clustering.py
