@@ -147,16 +147,16 @@ def comparative_exp():
         """
         Runs a series of clustering experiments for different parameter settings.
         """
-        options = ['no_ambig','direct_trans']
+        options = ['no_ambig','direct_trans', 'exclude_syntax', 'exclude_stock_phrases']
         d = data(options)
         oix = sorted(set(d.oix_raw))
         similarity_matrix = get_similarity_matrix(d, oix, association = 'associated')
-        clustering_algos = [(a,m,k) for a in ['hierarchical', 'ward', 'ap', 'kmeans']
+        clustering_algos = [(a,m,k) for a in ['hierarchical', 'ward','kmeans']
 			    for m in [None,'complete','average','single']
 			    for k in [None,2,3,4,5,6,7,8,9,10]
 			    if (m != None and k == None and a == 'hierarchical') or
 			    (m == None and k != None and a == 'kmeans') or
-			    (m == None and k == None and a in ['ward', 'ap'])]
+			    (m == None and k == None and a in ['ward'])]
         for a,m,k in clustering_algos:
                 parameters_j = options + ['algo:%s' % a]
                 if m != None: parameters_j.append('method:%s' % m)
