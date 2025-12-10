@@ -21,11 +21,11 @@ Breakdown of scripts and how to use them by section of Beekhuizen et al. 2015 pa
 		- description: Prints a clustering summary for a given set of options (see description of options in the class docstring for the data class in data.py). Each summary consists of the Adjusted Rand Score with the assigned semantic functions gold labels followed by a confusion matrix between semantic functions and clusters found by the clustering algorithm.
 
 I haven't done this one yet!
-~~* The perspective of a similarity space
+* The perspective of a similarity space
 	- create_oc_files.py
 		- usage: python create_oc_files.py data/test_set.tsv data/stemming_dictionary.csv
 		- description: restructures data as input for oc.r, and writes them to files oc_SPLIT_labels.csv, oc_SPLIT_gold.csv, and oc_SPLIT.csv. For plotting the development data, replace 'data/test_set.tsv' with 'data/dev_set.tsv'. 
 	- oc.r
 		- usage: Rscript oc.r
-		- description: Generates OC-MDS plots based on info in oc_SPLIT_test_labels.csv, oc_SPLIT_test_gold.csv and oc_test_SPLIT.csv. For plotting People instead of Things with the oc.r script, replace 'thing' on line 17 with 'body'.~~
+		- description: Generates OC-MDS plots based on info in oc_SPLIT_test_labels.csv, oc_SPLIT_test_gold.csv and oc_test_SPLIT.csv. For plotting People instead of Things with the oc.r script, replace 'thing' on line 17 with 'body'.
 	
